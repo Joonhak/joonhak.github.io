@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello World on DEVLOG</title>
+    <link>https://joonhak.github.io/tags/hello-world/</link>
+    <description>Recent content in Hello World on DEVLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <lastBuildDate>Wed, 06 Mar 2019 21:23:37 +0900</lastBuildDate>
+    
+	<atom:link href="https://joonhak.github.io/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://joonhak.github.io/welcome/</link>
+      <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/welcome/</guid>
+      <description> Welcome to my hugo-blog! Dashed  </description>
+    </item>
+    
+  </channel>
+</rss>
