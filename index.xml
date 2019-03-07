@@ -6,10 +6,20 @@
     <description>Recent content on DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Wed, 06 Mar 2019 21:23:37 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 20:05:47 +0900</lastBuildDate>
     
 	<atom:link href="https://joonhak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://joonhak.github.io/about/</link>
+      <pubDate>Thu, 07 Mar 2019 20:05:47 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/about/</guid>
+      <description> * Joonhak Lee  2012 동양미래대학 자동화시스템과 중퇴 2018 비트캠프 Java기반 데이터처리 전문가 양성과정 2019 학점은행 정보처리 전문학사
+   WORKSOUT IT팀 근무  Spring (jsp) + Oracle + Oracle cloud (ravello) Jenkin를 활용한 배포자동화   </description>
+    </item>
     
     <item>
       <title>Welcome</title>
@@ -17,7 +27,7 @@
       <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
       
       <guid>https://joonhak.github.io/welcome/</guid>
-      <description> Welcome to my hugo-blog! Dashed  </description>
+      <description> Welcome to my hugo-blog! </description>
     </item>
     
   </channel>
