@@ -5,7 +5,7 @@
     <link>https://joonhak.github.io/tags/hello-world/</link>
     <description>Recent content in Hello World on DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>kr-ko</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 06 Mar 2019 21:23:37 +0900</lastBuildDate>
     
 	<atom:link href="https://joonhak.github.io/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>Welcome</title>
-      <link>https://joonhak.github.io/welcome/</link>
+      <link>https://joonhak.github.io/posts/welcome/</link>
       <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
       
-      <guid>https://joonhak.github.io/welcome/</guid>
+      <guid>https://joonhak.github.io/posts/welcome/</guid>
       <description> Welcome to my hugo-blog! </description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DEVLOG</title>
-    <link>https://joonhak.github.io/</link>
-    <description>Recent content on DEVLOG</description>
+    <title>Golang on DEVLOG</title>
+    <link>https://joonhak.github.io/tags/golang/</link>
+    <description>Recent content in Golang on DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 09 Mar 2019 16:02:46 +0900</lastBuildDate>
     
-	<atom:link href="https://joonhak.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joonhak.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,25 +25,6 @@ Hugo로 정한것도 &amp;lsquo;Hoxy.. Go를 조금 써 볼 기회가 있지 않
 golang 설치 환경설정은 항상 설렌다.
 나는 Windows + intellij (ultimate) 환경에서 진행할 예정이다.
 우선 golang 다운로드 페이지로 가서 자신의 운영체제에 맞게 설치하면 되고</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://joonhak.github.io/about/</link>
-      <pubDate>Thu, 07 Mar 2019 20:05:47 +0900</pubDate>
-      
-      <guid>https://joonhak.github.io/about/</guid>
-      <description>Joonhak Lee  2012 동양미래대학 자동화시스템과 중퇴 2018 비트캠프 Java기반 데이터처리 전문가 양성과정 ( 6개월 ) 2019 학점은행제 정보처리 전문학사
-   WORKSOUT IT팀 근무 [ 2018-03 ~ 2019-03 ]  Spring (jsp) + Oracle + Oracle cloud ( ravello ) + Jenkins 운영 및 유지보수    Skills  Java ( spring, spring boot ) Database ( oracle, mysql ) Html, Css, Javascript ( jQuery, Node.js ) Nginx, Tomcat Git, Jenkins Linux ( oracle cloud )   Github</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://joonhak.github.io/posts/welcome/</link>
-      <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
-      
-      <guid>https://joonhak.github.io/posts/welcome/</guid>
-      <description> Welcome to my hugo-blog! </description>
     </item>
     
   </channel>

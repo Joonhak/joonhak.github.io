@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DEVLOG</title>
+    <link>https://joonhak.github.io/categories/</link>
+    <description>Recent content in Categories on DEVLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    
+	<atom:link href="https://joonhak.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go</title>
+      <link>https://joonhak.github.io/categories/go/</link>
+      <pubDate>Sat, 09 Mar 2019 16:02:46 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Category</title>
+      <link>https://joonhak.github.io/categories/no-category/</link>
+      <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/categories/no-category/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
