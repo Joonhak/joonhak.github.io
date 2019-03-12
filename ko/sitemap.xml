@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</loc>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://joonhak.github.io/posts/go_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</loc>
     <lastmod>2019-03-09T16:02:46+09:00</lastmod>
   </url>
@@ -33,29 +38,19 @@
   </url>
   
   <url>
-    <loc>https://joonhak.github.io/</loc>
-    <lastmod>2019-03-09T16:02:46+09:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://joonhak.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://joonhak.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://joonhak.github.io/tags/go/</loc>
-    <lastmod>2019-03-09T16:02:46+09:00</lastmod>
+    <loc>https://joonhak.github.io/tags/concurrency/</loc>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://joonhak.github.io/categories/go/</loc>
+    <lastmod>2019-03-09T16:02:46+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joonhak.github.io/tags/go/</loc>
     <lastmod>2019-03-09T16:02:46+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -85,14 +80,26 @@
   </url>
   
   <url>
+    <loc>https://joonhak.github.io/tags/parallelism/</loc>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://joonhak.github.io/posts/</loc>
-    <lastmod>2019-03-09T16:02:46+09:00</lastmod>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joonhak.github.io/categories/programming/</loc>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://joonhak.github.io/tags/</loc>
-    <lastmod>2019-03-09T16:02:46+09:00</lastmod>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -103,6 +110,22 @@
                 rel="alternate"
                 hreflang="ko"
                 href="https://joonhak.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://joonhak.github.io/</loc>
+    <lastmod>2019-03-12T17:01:17+09:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://joonhak.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://joonhak.github.io/"
                 />
   </url>
   

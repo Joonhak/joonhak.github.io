@@ -1,13 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on DEVLOG</title>
+        <title>Posts on 프린이의 DEVLOG</title>
         <link>https://joonhak.github.io/posts/</link>
-        <description>Recent content in Posts on DEVLOG</description>
+        <description>Recent content in Posts on 프린이의 DEVLOG</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 09 Mar 2019 16:02:46 +0900</lastBuildDate>
+        <lastBuildDate>Tue, 12 Mar 2019 17:01:17 +0900</lastBuildDate>
         <atom:link href="https://joonhak.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>동시성과_병렬성</title>
+            <link>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</link>
+            <pubDate>Tue, 12 Mar 2019 17:01:17 +0900</pubDate>
+            
+            <guid>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</guid>
+            <description>동시성(Concurrency) 동시성은 작업을 작은 시간단위로 나누어 연산하는것을 의미한다.
+나눈다는 말에서 느낄 수 있듯, 시간을 나누어 연산한다는것은
+실제로 동시에 연산이 진행되는것이 아니라 동시에 연산되는것 처럼
+보인다는 의미이다. 공부를 하면서 동시에 카톡을 한다면..
+따라서 동시성 프로그래밍은 코어의 개수가 중요하지 않다.
+병렬성(Parallelism) 병렬성은 실제 다른 코어들이 동시에 연산하는것을 의미한다.
+따라서 단일 코어환경, 또는 단일 쓰레드환경 에서는 병렬 프로그래밍이 불가능하고,
+동시성 프로그래밍과 다르게 실제로 동시에 연산된다.
+Summary 동시성과 병렬성은 비슷하게 들리지만 동시성은 작업을 나누어 하는것,</description>
+            <content type="html"><![CDATA[
+
+<h2 id="동시성-concurrency">동시성(Concurrency)</h2>
+
+<p>동시성은 작업을 <code>작은 시간단위로</code> 나누어 연산하는것을 의미한다.<br />
+나눈다는 말에서 느낄 수 있듯, 시간을 나누어 연산한다는것은<br />
+실제로 동시에 연산이 진행되는것이 아니라 동시에 연산되는것 <code>처럼</code><br />
+보인다는 의미이다. <del>공부를 하면서 동시에 카톡을 한다면..</del><br />
+따라서 동시성 프로그래밍은 코어의 개수가 중요하지 않다.</p>
+
+<h2 id="병렬성-parallelism">병렬성(Parallelism)</h2>
+
+<p>병렬성은 실제 <code>다른 코어</code>들이 <code>동시에</code> 연산하는것을 의미한다.<br />
+따라서 단일 코어환경, 또는 단일 쓰레드환경 에서는 병렬 프로그래밍이 불가능하고,<br />
+동시성 프로그래밍과 다르게 실제로 <code>동시에</code> 연산된다.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>동시성과 병렬성은 비슷하게 들리지만 동시성은 작업을 나누어 하는것,<br />
+병렬성은 실제로 동시에 작업하는것을 의미한다고 결론지을 수 있을것 같다.<br />
+<del>말로는 그럴싸 한데.. 코드로는?</del></p>
+
+<h2 id="ref">Ref</h2>
+
+<ul>
+<li><a href="https://atin.tistory.com/567" target="_blank">동시성(Concurrency) VS 병렬성(Parallelism)</a></li>
+<li><a href="https://seohs.tistory.com/461" target="_blank">동시성(Concurrency)과 병렬성(Parallelism)</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Go_시작하기</title>
