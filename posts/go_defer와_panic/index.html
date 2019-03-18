@@ -10,14 +10,14 @@
     content="최근 Golang에 흥미가 생겨 열심히 따라치는 공부하는 중인데, 이해가 안가는 부분이 있어서 정리해보고자 글을 작성한다.
 Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (= 해당 함수 return 직전 또는 블록을 벗어나는 시점에) 실행시키는 키워드다. 한국어로는 지연호출이라고 볼 수 있겠다. 찾아본바로는 defer로 선언된 함수들을 stack에 담았다가 함수 종료 직전에 실행시킨다고 한다. 따라서 defer된 함수들의 호출 순서는 &amp;lsquo;먼저&amp;rsquo; 선언된 defer 함수가 &amp;lsquo;나중에&amp;rsquo; 실행된다.
 func main() { defer fmt.Println(&amp;#34;world!&amp;#34;) defer fmt." />
-<meta name="keywords" content="" />
+<meta name="keywords" content="JAVA, GO, WEB DEVELOPER, BACKEND" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://joonhak.github.io/posts/go_defer%EC%99%80_panic/" />
 
 
 <title>
     
-    Go_defer와_panic :: 프린이의 DEVLOG 
+    Go_defer와_panic :: 프린이의 DEVLOG  — 프린이의 DEVLOG
     
 </title>
 
@@ -56,7 +56,7 @@ func main() { defer fmt.Println(&#34;world!&#34;) defer fmt.">
 
 
 
-<meta itemprop="keywords" content="Go," />
+<meta itemprop="keywords" content="defer,panic," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://joonhak.github.io/"/>
 
@@ -99,7 +99,7 @@ func main() { defer fmt.Println(&#34;world!&#34;) defer fmt."/>
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://joonhak.github.io/about/">About</a></li><li><a href="https://joonhak.github.io/posts/">Posts</a></li><li><a href="https://joonhak.github.io/tags/">Tags</a></li>
+    <ul class="menu__inner"><li><a href="https://joonhak.github.io/about/">About</a></li><li><a href="https://joonhak.github.io/categories/">Category</a></li><li><a href="https://joonhak.github.io/posts/">Posts</a></li>
     </ul>
 </nav>
 
@@ -243,7 +243,7 @@ Hoxy.. 하고 코드 순서를 다음과 같이 고쳐봤다.</p>
 
         <div class="post-info">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://joonhak.github.io/tags/go">Go</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://joonhak.github.io/tags/defer">defer</a></span><span class="tag"><a href="https://joonhak.github.io/tags/panic">panic</a></span>
                 </p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>

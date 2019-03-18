@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>Defer</title>
+      <link>https://joonhak.github.io/tags/defer/</link>
+      <pubDate>Sun, 17 Mar 2019 18:32:46 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/tags/defer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Go</title>
       <link>https://joonhak.github.io/tags/go/</link>
-      <pubDate>Sun, 17 Mar 2019 18:32:46 +0900</pubDate>
+      <pubDate>Sat, 09 Mar 2019 16:02:46 +0900</pubDate>
       
       <guid>https://joonhak.github.io/tags/go/</guid>
       <description></description>
@@ -44,6 +53,15 @@
       <pubDate>Wed, 06 Mar 2019 21:23:37 +0900</pubDate>
       
       <guid>https://joonhak.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panic</title>
+      <link>https://joonhak.github.io/tags/panic/</link>
+      <pubDate>Sun, 17 Mar 2019 18:32:46 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/tags/panic/</guid>
       <description></description>
     </item>
     
