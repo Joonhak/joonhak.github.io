@@ -6,10 +6,21 @@
     <description>Recent content in Go on 프린이의 DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 09 Mar 2019 16:02:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 18:32:46 +0900</lastBuildDate>
     
 	<atom:link href="https://joonhak.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go_defer와_panic</title>
+      <link>https://joonhak.github.io/posts/go_defer%EC%99%80_panic/</link>
+      <pubDate>Sun, 17 Mar 2019 18:32:46 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/posts/go_defer%EC%99%80_panic/</guid>
+      <description>최근 Golang에 흥미가 생겨 열심히 따라치는 공부하는 중인데, 이해가 안가는 부분이 있어서 정리해보고자 글을 작성한다.
+Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (= 해당 함수 return 직전 또는 블록을 벗어나는 시점에) 실행시키는 키워드다. 한국어로는 지연호출이라고 볼 수 있겠다. 찾아본바로는 defer로 선언된 함수들을 stack에 담았다가 함수 종료 직전에 실행시킨다고 한다. 따라서 defer된 함수들의 호출 순서는 &amp;lsquo;먼저&amp;rsquo; 선언된 defer 함수가 &amp;lsquo;나중에&amp;rsquo; 실행된다.
+func main() { defer fmt.Println(&amp;#34;world!&amp;#34;) defer fmt.</description>
+    </item>
     
     <item>
       <title>Go_시작하기</title>
@@ -17,14 +28,8 @@
       <pubDate>Sat, 09 Mar 2019 16:02:46 +0900</pubDate>
       
       <guid>https://joonhak.github.io/posts/go_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
-      <description>Why golang?  퇴사 후 여러 언어를 해보고싶은 욕심에 python과 node를 조금 해봤는데,
-사실 동적타입 언어에 대한 막연한 거부감 때문에 망설이던 중
-&amp;lsquo;Golang을 해보자!&amp;rsquo; 하는 생각이 들었다. 사실은 이 블로그의 정적 사이트 생성기를
-Hugo로 정한것도 &amp;lsquo;Hoxy.. Go를 조금 써 볼 기회가 있지 않을까?&amp;rsquo; 하는 생각 때문이었다.
-(하지만 써 볼 기회는 없었&amp;hellip;.) 각설하고, golang 설치부터 해보겠다.
-golang 설치 환경설정은 항상 설렌다.
-나는 Windows + intellij (ultimate) 환경에서 진행할 예정이다.
-우선 golang 다운로드 페이지로 가서 자신의 운영체제에 맞게 설치하면 되고</description>
+      <description>Why golang?  퇴사 후 여러 언어를 해보고싶은 욕심에 python과 node를 조금 해봤는데, 사실 동적타입 언어에 대한 막연한 거부감 때문에 망설이던 중 &amp;lsquo;Golang을 해보자!&amp;rsquo; 하는 생각이 들었다. 사실은 이 블로그의 정적 사이트 생성기를 Hugo로 정한것도 &amp;lsquo;Hoxy.. Go를 조금 써 볼 기회가 있지 않을까?&amp;rsquo; 하는 생각 때문이었다. (하지만 써 볼 기회는 없었&amp;hellip;.) 각설하고, golang 설치부터 해보겠다.
+golang 설치 환경설정은 항상 설렌다. 나는 Windows + intellij (ultimate) 환경에서 진행할 예정이다. 우선 golang 다운로드 페이지로 가서 자신의 운영체제에 맞게 설치하면 되고 Next만 눌렀다면 C:\go에, 경로를 따로 잡아줬으면 해당 경로에 설치된다.</description>
     </item>
     
   </channel>
