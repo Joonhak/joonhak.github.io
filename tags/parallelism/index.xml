@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>동시성과_병렬성</title>
-      <link>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</link>
+      <title>동시성과 병렬성</title>
+      <link>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1/</link>
       <pubDate>Tue, 12 Mar 2019 17:01:17 +0900</pubDate>
       
-      <guid>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</guid>
+      <guid>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1/</guid>
       <description>동시성(Concurrency) 동시성은 작업을 작은 시간단위로 나누어 연산하는것을 의미한다.
 나눈다는 말에서 느낄 수 있듯, 시간을 나누어 연산한다는것은
 실제로 동시에 연산이 진행되는것이 아니라 동시에 연산되는것 처럼

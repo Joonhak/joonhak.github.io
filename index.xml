@@ -6,28 +6,39 @@
     <description>Recent content on 프린이의 DEVLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 17 Mar 2019 18:32:46 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 18:06:22 +0900</lastBuildDate>
     
 	<atom:link href="https://joonhak.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Go_defer와_panic</title>
-      <link>https://joonhak.github.io/posts/go_defer%EC%99%80_panic/</link>
+      <title>면접왕GDG</title>
+      <link>https://joonhak.github.io/posts/%EB%A9%B4%EC%A0%91%EC%99%95gdg/</link>
+      <pubDate>Tue, 02 Apr 2019 18:06:22 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/posts/%EB%A9%B4%EC%A0%91%EC%99%95gdg/</guid>
+      <description>이번에 이직을 생각하면서 내가 면접을 제대로 본 적이 없다는것을 깨닳음과 동시에 스터디를 찾는 도중 면접왕GDG라는 오프라인 세미나? 비슷한걸 찾아서 당장 신청해서 다녀왔다.
+최근에 다녀온건 아니고 아이패드 노트 작성시간을 확인해보니까 2월 26일에 작성했던데.. 정신놓고 살다가 얼마전에 면접을 다녀 온 후로 진짜 너무 정리를 안했다는 자책과 함께 이제라도 정리해 보고자 작성한다.
+사실은 좀 지각을 해서.. 망할 6시 30분 퇴근! 총 5개? 회사에서 말씀을 해주신거같은데.. 제대로 들은건 두 회사밖에 없지만 그것만으로도 나름 엄청난 도움이 되었다고 생각이 되서 앞 회사들의 이야기를 못들은것이 더욱 안타깝지만 뭐, 별 수 있나 들은거라도 정리해야지.</description>
+    </item>
+    
+    <item>
+      <title>Go defer와 panic</title>
+      <link>https://joonhak.github.io/posts/go-defer%EC%99%80-panic/</link>
       <pubDate>Sun, 17 Mar 2019 18:32:46 +0900</pubDate>
       
-      <guid>https://joonhak.github.io/posts/go_defer%EC%99%80_panic/</guid>
+      <guid>https://joonhak.github.io/posts/go-defer%EC%99%80-panic/</guid>
       <description>최근 Golang에 흥미가 생겨 열심히 따라치는 공부하는 중인데, 이해가 안가는 부분이 있어서 정리해보고자 글을 작성한다.
 Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (= 해당 함수 return 직전 또는 블록을 벗어나는 시점에) 실행시키는 키워드다. 한국어로는 지연호출이라고 볼 수 있겠다. 찾아본바로는 defer로 선언된 함수들을 stack에 담았다가 함수 종료 직전에 실행시킨다고 한다. 따라서 defer된 함수들의 호출 순서는 &amp;lsquo;먼저&amp;rsquo; 선언된 defer 함수가 &amp;lsquo;나중에&amp;rsquo; 실행된다.
 func main() { defer fmt.Println(&amp;#34;world!&amp;#34;) defer fmt.</description>
     </item>
     
     <item>
-      <title>동시성과_병렬성</title>
-      <link>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</link>
+      <title>동시성과 병렬성</title>
+      <link>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1/</link>
       <pubDate>Tue, 12 Mar 2019 17:01:17 +0900</pubDate>
       
-      <guid>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/</guid>
+      <guid>https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1/</guid>
       <description>동시성(Concurrency) 동시성은 작업을 작은 시간단위로 나누어 연산하는것을 의미한다.
 나눈다는 말에서 느낄 수 있듯, 시간을 나누어 연산한다는것은
 실제로 동시에 연산이 진행되는것이 아니라 동시에 연산되는것 처럼
@@ -40,11 +51,11 @@ Summary 동시성과 병렬성은 비슷하게 들리지만 동시성은 작업�
     </item>
     
     <item>
-      <title>Go_시작하기</title>
-      <link>https://joonhak.github.io/posts/go_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <title>Go 시작하기</title>
+      <link>https://joonhak.github.io/posts/go-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 09 Mar 2019 16:02:46 +0900</pubDate>
       
-      <guid>https://joonhak.github.io/posts/go_%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://joonhak.github.io/posts/go-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
       <description>Why golang?  퇴사 후 여러 언어를 해보고싶은 욕심에 python과 node를 조금 해봤는데, 사실 동적타입 언어에 대한 막연한 거부감 때문에 망설이던 중 &amp;lsquo;Golang을 해보자!&amp;rsquo; 하는 생각이 들었다. 사실은 이 블로그의 정적 사이트 생성기를 Hugo로 정한것도 &amp;lsquo;Hoxy.. Go를 조금 써 볼 기회가 있지 않을까?&amp;rsquo; 하는 생각 때문이었다. (하지만 써 볼 기회는 없었&amp;hellip;.) 각설하고, golang 설치부터 해보겠다.
 golang 설치 환경설정은 항상 설렌다. 나는 Windows + intellij (ultimate) 환경에서 진행할 예정이다. 우선 golang 다운로드 페이지로 가서 자신의 운영체제에 맞게 설치하면 되고 Next만 눌렀다면 C:\go에, 경로를 따로 잡아줬으면 해당 경로에 설치된다.</description>
     </item>

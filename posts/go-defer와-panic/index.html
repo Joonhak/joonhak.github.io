@@ -12,12 +12,12 @@ Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (=
 func main() { defer fmt.Println(&amp;#34;world!&amp;#34;) defer fmt." />
 <meta name="keywords" content="JAVA, GO, WEB DEVELOPER, BACKEND" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://joonhak.github.io/posts/go_defer%EC%99%80_panic/" />
+<link rel="canonical" href="https://joonhak.github.io/posts/go-defer%EC%99%80-panic/" />
 
 
 <title>
     
-    Go_defer와_panic :: 프린이의 DEVLOG  — 프린이의 DEVLOG
+    Go defer와 panic :: 프린이의 DEVLOG  — 프린이의 DEVLOG
     
 </title>
 
@@ -44,7 +44,7 @@ func main() { defer fmt.Println(&amp;#34;world!&amp;#34;) defer fmt." />
 <link rel="mask-icon" href="https://joonhak.github.io/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="https://joonhak.github.io/favicon.ico" type="image/x-icon">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="Go_defer와_panic">
+<meta itemprop="name" content="Go defer와 panic">
 <meta itemprop="description" content="최근 Golang에 흥미가 생겨 열심히 따라치는 공부하는 중인데, 이해가 안가는 부분이 있어서 정리해보고자 글을 작성한다.
 Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (= 해당 함수 return 직전 또는 블록을 벗어나는 시점에) 실행시키는 키워드다. 한국어로는 지연호출이라고 볼 수 있겠다. 찾아본바로는 defer로 선언된 함수들을 stack에 담았다가 함수 종료 직전에 실행시킨다고 한다. 따라서 defer된 함수들의 호출 순서는 &lsquo;먼저&rsquo; 선언된 defer 함수가 &lsquo;나중에&rsquo; 실행된다.
 func main() { defer fmt.Println(&#34;world!&#34;) defer fmt.">
@@ -60,7 +60,7 @@ func main() { defer fmt.Println(&#34;world!&#34;) defer fmt.">
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://joonhak.github.io/"/>
 
-<meta name="twitter:title" content="Go_defer와_panic"/>
+<meta name="twitter:title" content="Go defer와 panic"/>
 <meta name="twitter:description" content="최근 Golang에 흥미가 생겨 열심히 따라치는 공부하는 중인데, 이해가 안가는 부분이 있어서 정리해보고자 글을 작성한다.
 Go의 defer 우선 Go의 defer 키워드는 뒤에 오는 코드를 나중에 (= 해당 함수 return 직전 또는 블록을 벗어나는 시점에) 실행시키는 키워드다. 한국어로는 지연호출이라고 볼 수 있겠다. 찾아본바로는 defer로 선언된 함수들을 stack에 담았다가 함수 종료 직전에 실행시킨다고 한다. 따라서 defer된 함수들의 호출 순서는 &lsquo;먼저&rsquo; 선언된 defer 함수가 &lsquo;나중에&rsquo; 실행된다.
 func main() { defer fmt.Println(&#34;world!&#34;) defer fmt."/>
@@ -135,7 +135,7 @@ func main() { defer fmt.Println(&#34;world!&#34;) defer fmt."/>
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://joonhak.github.io/posts/go_defer%EC%99%80_panic/">Go_defer와_panic</a></h2>
+            <h2 class="post-title"><a href="https://joonhak.github.io/posts/go-defer%EC%99%80-panic/">Go defer와 panic</a></h2>
 
             
 
@@ -260,11 +260,18 @@ Hoxy.. 하고 코드 순서를 다음과 같이 고쳐봤다.</p>
 
                 <div class="pagination__buttons">
                     
+                        <span class="button previous">
+                            <a href="https://joonhak.github.io/posts/%EB%A9%B4%EC%A0%91%EC%99%95gdg/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">면접왕GDG</span>
+                            </a>
+                        </span>
+                    
 
                     
                         <span class="button next">
-                            <a href="https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC_%EB%B3%91%EB%A0%AC%EC%84%B1/">
-                                <span class="button__text">동시성과_병렬성</span>
+                            <a href="https://joonhak.github.io/posts/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1/">
+                                <span class="button__text">동시성과 병렬성</span>
                                 <span class="button__icon">→</span>
                             </a>
                         </span>

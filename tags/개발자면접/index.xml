@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>개발자면접 on 프린이의 DEVLOG</title>
+    <link>https://joonhak.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A9%B4%EC%A0%91/</link>
+    <description>Recent content in 개발자면접 on 프린이의 DEVLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 02 Apr 2019 18:06:22 +0900</lastBuildDate>
+    
+	<atom:link href="https://joonhak.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A9%B4%EC%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>면접왕GDG</title>
+      <link>https://joonhak.github.io/posts/%EB%A9%B4%EC%A0%91%EC%99%95gdg/</link>
+      <pubDate>Tue, 02 Apr 2019 18:06:22 +0900</pubDate>
+      
+      <guid>https://joonhak.github.io/posts/%EB%A9%B4%EC%A0%91%EC%99%95gdg/</guid>
+      <description>이번에 이직을 생각하면서 내가 면접을 제대로 본 적이 없다는것을 깨닳음과 동시에 스터디를 찾는 도중 면접왕GDG라는 오프라인 세미나? 비슷한걸 찾아서 당장 신청해서 다녀왔다.
+최근에 다녀온건 아니고 아이패드 노트 작성시간을 확인해보니까 2월 26일에 작성했던데.. 정신놓고 살다가 얼마전에 면접을 다녀 온 후로 진짜 너무 정리를 안했다는 자책과 함께 이제라도 정리해 보고자 작성한다.
+사실은 좀 지각을 해서.. 망할 6시 30분 퇴근! 총 5개? 회사에서 말씀을 해주신거같은데.. 제대로 들은건 두 회사밖에 없지만 그것만으로도 나름 엄청난 도움이 되었다고 생각이 되서 앞 회사들의 이야기를 못들은것이 더욱 안타깝지만 뭐, 별 수 있나 들은거라도 정리해야지.</description>
+    </item>
+    
+  </channel>
+</rss>
